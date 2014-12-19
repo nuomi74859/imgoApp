@@ -19,7 +19,7 @@
   position:absolute;
   background:#EEEEEE;
   z-index:10;
-  @include transition(all .4s $easeOutBack .4s);
+  @include transition(all .6s $easeOutBack .4s);
   @include transform(translateZ(0) translateX(0) rotateY(0deg));
   .panel-tip {
     width:100%;
@@ -175,7 +175,7 @@
       overflow:hidden;
       cursor:pointer;
       opacity:0.8;
-      @include transition(all .4s $easeOutBack);
+      @include transition(all .6s $easeOutBack);
       @include transform(translateZ(-1800px) translateX(-50%) rotateY(45deg));
 	}
 	.app-nav {
